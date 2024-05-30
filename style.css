@@ -1,0 +1,269 @@
+/*common css start */
+body {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*common css end */
+/*header start */
+header {
+    padding: 20px 0px 100px 0px;
+}
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    margin-top: 10px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 66%;
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #626262;
+    margin: 0px 50px;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0px;
+}
+
+.menu ul li:hover a {
+    border-bottom: 2px solid #626262;
+    transition: .2s;
+}
+
+/*header style end */
+
+/*banner style start */
+.b_img img {
+    width: 100%;
+}
+
+/*banner style end */
+
+/*gataway start */
+.container2 {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.gataway {
+    padding: 100px 0px;
+}
+
+.gataway span {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #b4ad9e;
+}
+
+.gataway h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+}
+
+.gataway p {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #626262;
+}
+
+.gataway a {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #b4ad9e;
+    text-decoration: none;
+
+}
+
+/* gataway end */
+/* blog start */
+.blog {
+    overflow: hidden;
+}
+
+.bl_content {
+    width: 47%;
+    float: left;
+}
+
+.bl_marign {
+    margin-right: 56px;
+}
+
+.bl_1 {
+    margin-top: 70px;
+}
+
+.bl_img img {
+    width: 100%;
+}
+
+.bl_text span {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #b4ad9e;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+.bl_text h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+    margin: 10px 0px 25px 0px;
+}
+
+.b_padding {
+    padding: 100px 0px 0px 0pxs;
+}
+
+/*blog end */
+/* news start */
+.news {
+    background-color: #f0f0f0;
+    padding: 30px 0px 50px 0px;
+}
+
+.newsletter {
+    width: 400px;
+    margin: 0px auto;
+}
+
+.newsletter h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 60px;
+
+}
+
+.n_form {
+    position: relative;
+}
+
+.n_form input {
+    border: none;
+    background-color: transparent;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 2px solid black;
+    width: 345px;
+    padding: 10px 50px 10px 5px;
+}
+
+.n_form input:focus {
+    outline: none;
+}
+
+.n_form button {
+    border: none;
+    position: absolute;
+    right: 0px;
+    top: 12px;
+}
+
+/*news end */
+.load {
+    text-align: center;
+}
+
+.load button {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 100px 0px;
+    width: 160px;
+    height: 60px;
+    border: 2px solid rgba(62, 62, 62, .5);
+    background-color: transparent;
+    color: #626262;
+}
+
+.load button:hover {
+    background-color: #3e3d39;
+}
+
+.f_content {
+    overflow: hidden;
+}
+
+.f_text {
+    width: 30%;
+    float: left;
+}
+
+.f_text ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.f_text ul li a {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #626262;
+
+}
+
+.f_social {
+    width: 30%;
+    float: right;
+}
+
+.f_social ul {
+    float: right;
+}
+
+.f_social ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.f_social ul li {
+    padding: 0px 10px;
+
+}
+
+.f_social ul :last-child li {
+    padding-right: 0px;
+}
